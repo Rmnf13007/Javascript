@@ -134,7 +134,7 @@ alert('Bravo, vous avez trouvé !');
 
 let devinette = Math.floor(Math.random() * 11); 
 
-function verifierNombre() {
+function testFonction() {
   let nombreUtilisateur;
   do {
     nombreUtilisateur = prompt('Entrez un nombre entre 0 et 10:');
@@ -150,4 +150,4 @@ function verifierNombre() {
   } while (true);
 }
 
-verifierNombre();
+testFonction();
